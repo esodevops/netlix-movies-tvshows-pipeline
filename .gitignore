@@ -1,1 +1,58 @@
-    
+# macOS and operating-system files
+.DS_Store
+Thumbs.db
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+.databrickscfg
+
+# Spark local runtime files
+metastore_db/
+spark-warehouse/
+derby.log
+
+# Generated data and local pipeline output
+processed/
+output/
+outputs/
+*.parquet
+*.orc
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
